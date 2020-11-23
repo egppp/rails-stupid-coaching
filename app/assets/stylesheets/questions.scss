@@ -1,0 +1,21 @@
+ $gray: #F4F4F4;
+
+ body {
+   background: $gray; // Using this variable
+   margin: 100px 200px auto;
+   text-align: center;
+ }
+
+ link_to {
+   color: grey;
+   &:hover {
+     color: black;
+   }
+ }
+
+ a {
+   color: grey;
+   &:hover {
+     color: black;
+   }
+ }
